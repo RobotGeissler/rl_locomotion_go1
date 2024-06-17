@@ -8,8 +8,8 @@ SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/raisimGymTorch/en
 
 MACRO(SUBDIRLIST result curdir)
     SET(dirlist "")
-    LIST(APPEND dirlist rsg_a1_task)
-    LIST(APPEND dirlist dagger_a1)
+    LIST(APPEND dirlist rsg_go1_task)
+    LIST(APPEND dirlist dagger_go1)
     SET(${result} ${dirlist})
 ENDMACRO()
 
